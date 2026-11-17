@@ -1,2 +1,11 @@
-<!DOCTYPE html><html lang="ru"><head><meta charset="utf-8"><title>POC removed</title></head>
-<body><p>POC страницы захвата удалена. Домен возвращён в исходное состояние. Контакт: st2l (BI.ZONE Bug Bounty, программа Clatch).</p></body></html>
+<!DOCTYPE html>
+<html lang="ru">
+<head><meta charset="utf-8"><title>tmp.clatch.app — subdomain takeover PoC (BI.ZONE Bug Bounty)</title>
+<style>body{font-family:system-ui,sans-serif;max-width:760px;margin:48px auto;padding:0 16px;line-height:1.5}code{background:#f4f4f4;padding:2px 6px;border-radius:3px}h1{font-size:1.4em}</style></head>
+<body>
+<h1>Subdomain takeover PoC — tmp.clatch.app</h1>
+<p>Эта страница — контролируемое доказательство захвата поддомена <code>tmp.clatch.app</code> в рамках программы bug bounty <strong>BI.ZONE Bug Bounty</strong> (программа Clatch / ООО «Клатч», отчёт st2l).</p>
+<p>Домен указывает на GitHub Pages, но не был привязан к репозиторию — запись осталась от удалённого сайта. Любой мог привязать его к своему репозиторию и обслуживать контент с валидным TLS-сертификатом на доверенном домене издателя.</p>
+<p><code>tmp.clatch.app</code> упомянут в прод-конфиге приложения Clatch как <code>appInfoUrl</code>: приложение делает неаутентифицированный <code>GET /appinfo.json</code> при каждом старте.</p>
+<p>Контакт: st2l на платформе BI.ZONE Bug Bounty (st2l.pwn@gmail.com). Домен будет возвращён владельцу после подтверждения отчёта триажем.</p>
+</body></html>
