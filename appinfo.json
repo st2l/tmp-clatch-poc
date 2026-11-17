@@ -1,0 +1,5 @@
+{
+  "_poc_note": "BI.ZONE Bug Bounty takeover PoC (st2l). Это контролируемый ответ в рамках отчёта о захвате tmp.clatch.app. Настоящее приложение ожидает здесь свою конфигурацию.",
+  "version": "poc-2026-11-17",
+  "contact": "st2l.pwn@gmail.com"
+}
